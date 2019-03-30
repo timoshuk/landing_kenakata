@@ -355,7 +355,8 @@ h3 {
   position: relative;
   max-width: 1600px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background-color: #fff; }
 
 .container {
   position: relative;
@@ -366,7 +367,9 @@ h3 {
 .header__top {
   display: flex;
   justify-content: flex-start;
-  align-items: center; }
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px; }
 
 .logo {
   margin-right: 60px;
@@ -385,6 +388,59 @@ h3 {
   .logo__link:hover, .logo__link:focus {
     color: var(--brand-color);
     outline: none; }
+
+.main-nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.main-nav__list-item {
+  margin-right: 25px; }
+  .main-nav__list-item:active {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+
+.main-nav__link {
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-decoration: none;
+  color: var(--main-font-color);
+  transition: all 0.3s; }
+  .main-nav__link:hover, .main-nav__link:focus {
+    color: var(--brand-color);
+    outline: none; }
+
+.basket {
+  position: relative;
+  margin-left: auto;
+  font-size: 3rem; }
+  .basket:active {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+
+.basket__link {
+  text-decoration: none;
+  color: var(--main-font-color);
+  transition: all 0.3s; }
+  .basket__link:hover, .basket__link:focus {
+    color: var(--brand-color);
+    outline: none; }
+  .basket__link:active {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+
+.count {
+  display: block;
+  position: absolute;
+  right: -12px;
+  bottom: -8px;
+  padding: 5px 8px;
+  border-radius: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--brand-color); }
 
 .btn {
   /* default for <button>, but useful for <a> */

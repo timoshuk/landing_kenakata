@@ -1,6 +1,8 @@
 .header__top {
   display: flex;
   justify-content: flex-start;
-  align-items: center; }
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px; }
 
 /*# sourceMappingURL=header.css.map */
