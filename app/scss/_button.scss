@@ -1,6 +1,9 @@
 .btn {
   /* default for <button>, but useful for <a> */
   display: inline-block;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: normal;
   text-align: center;
   text-decoration: none;
 
@@ -12,18 +15,16 @@
   border-radius: 4px;
 
   /* size comes from text & padding (no width/height) */
-  padding: 0.5em 1em;
+  padding: 15px 20px;
   outline: none;
 
   /* make sure colors have enough contrast! */
-  color: #ffffff;
-  background-color: #9555af;
+  color: #fff;
+  background-color: var(--brand-color);
   cursor: pointer;
   animation: all 0.6s;
   &:hover {
-    color: #9555af;
-    border-color: currentColor;
-    background-color: white;
+    background-color: var(--hover-color);
   }
   &:focus {
     outline: none;

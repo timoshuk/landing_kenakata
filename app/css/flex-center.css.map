@@ -1,0 +1,1 @@
+{"version":3,"sources":["flex-center.css"],"names":[],"mappings":"AAAA;EACE,aAAa,EAAE","file":"flex-center.css","sourcesContent":[".flex-center {\n  display: flex; }\n"]}
