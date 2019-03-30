@@ -1,0 +1,1 @@
+{"version":3,"sources":["header.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,2BAA2B;EAC3B,mBAAmB,EAAE","file":"header.css","sourcesContent":[".header__top {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center; }\n"]}

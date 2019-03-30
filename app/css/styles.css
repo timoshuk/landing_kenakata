@@ -307,6 +307,7 @@ template {
 :root {
   --main-font: "Muli", sans-serif;
   --header-font: "Lora", serif;
+  --brand-color: #f72464;
   --main-font-color: #52575d;
   --header-font-color: #222222;
   --subtitle-color: #919191; }
@@ -349,6 +350,41 @@ h2 {
 h3 {
   font-size: 1.2rem;
   color: var(--subtitle-color); }
+
+.page-wrapper {
+  position: relative;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.header__top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.logo {
+  margin-right: 60px;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: bold;
+  transition: all 0.3s; }
+  .logo:active {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+
+.logo__link {
+  text-decoration: none;
+  color: #041122;
+  transition: all 0.3s; }
+  .logo__link:hover, .logo__link:focus {
+    color: var(--brand-color);
+    outline: none; }
 
 .btn {
   /* default for <button>, but useful for <a> */
