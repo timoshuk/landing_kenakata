@@ -1,0 +1,19 @@
+.you-love {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 185px;
+  background-image: url(../images/you-love/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .you-love .btn {
+    min-width: 225px; }
+
+.you-love__title {
+  font-style: 6rem;
+  font-weight: normal;
+  color: #fff; }
+
+/*# sourceMappingURL=you-love.css.map */
