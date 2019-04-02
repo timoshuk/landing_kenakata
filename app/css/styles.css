@@ -610,15 +610,17 @@ h3 {
   margin-right: 5px; }
 
 .you-love {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
   min-height: 185px;
   background-image: url(../images/you-love/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
+  .you-love .container {
+    min-height: 185px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; }
   .you-love .btn {
     min-width: 225px; }
 
@@ -626,5 +628,33 @@ h3 {
   font-style: 6rem;
   font-weight: normal;
   color: #fff; }
+
+.fetured-products {
+  padding-top: 100px; }
+
+.brands {
+  min-height: 185px;
+  background: url(../images/brands/brands_BG.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px; }
+
+.brands__list {
+  min-height: 185px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.brands__item {
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.brands__logo {
+  width: 160px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 /*# sourceMappingURL=styles.css.map */
