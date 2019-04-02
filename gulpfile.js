@@ -52,7 +52,6 @@ gulp.task("css", function() {
     .pipe(postcss([autoprefixer()]))
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest("app/css"))
-    .pipe(notify("Done!"))
     .pipe(
       browserSync.reload({
         stream: true
