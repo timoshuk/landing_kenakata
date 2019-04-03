@@ -34,3 +34,12 @@
   color: #fff;
   background-color: var(--brand-color);
 }
+
+@media all and(max-width:585px) {
+  .basket {
+    width: 25px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+  }
+}

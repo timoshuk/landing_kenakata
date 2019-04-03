@@ -36,3 +36,15 @@
   max-width: 800px;
   overflow: hidden;
 }
+
+@media all and(max-width:585px) {
+  .header__top {
+    flex-direction: column;
+  }
+  .basket {
+    margin-left: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+}
