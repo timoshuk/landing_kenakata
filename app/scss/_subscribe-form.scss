@@ -1,0 +1,28 @@
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__email {
+    margin-right: 10px;
+    width: 250px;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid var(--brand-color);
+    background: transparent;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #c4c4c4;
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5),
+        0 0 0 1.5px rgba(255, 105, 180, 0.5);
+    }
+  }
+
+  & .btn {
+    min-width: 125px;
+    height: 50px;
+  }
+}

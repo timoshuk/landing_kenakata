@@ -1,0 +1,32 @@
+.social {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__item {
+  margin-right: 25px;
+  margin-bottom: 25px;
+  transition: all 0.3s;
+  &:hover,
+  &:focus {
+    transform: scale(1.2);
+  }
+  &:active {
+    transform: scale(1);
+  }
+}
+
+.social__link {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  font-size: 25px;
+
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
+}

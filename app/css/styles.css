@@ -482,8 +482,6 @@ h3 {
   font-weight: normal;
   text-align: center;
   text-decoration: none;
-  /* create a small space when buttons wrap on 2 lines */
-  margin: 2px 0;
   /* invisible border (will be colored on hover/focus) */
   border: solid 1px transparent;
   border-radius: 4px;
@@ -715,5 +713,101 @@ h3 {
     right: -15px;
     font-size: 15px;
     color: var(--brand-color); }
+
+.join {
+  text-align: center;
+  padding-bottom: 100px; }
+
+.join__title {
+  margin-bottom: 35px; }
+
+.join__subtitle {
+  font-size: 1.5rem;
+  line-height: 1.67;
+  color: #898989;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px; }
+
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .subscribe-form__email {
+    margin-right: 10px;
+    width: 250px;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid var(--brand-color);
+    background: transparent;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #c4c4c4; }
+    .subscribe-form__email:focus {
+      box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5), 0 0 0 1.5px rgba(255, 105, 180, 0.5); }
+  .subscribe-form .btn {
+    min-width: 125px;
+    height: 50px; }
+
+.footer {
+  text-align: center;
+  background: #000;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px; }
+
+.footer__link-item {
+  margin-right: 35px; }
+
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+  outline: none; }
+  .footer__link:hover, .footer__link:focus {
+    color: var(--brand-color);
+    text-decoration: underline; }
+  .footer__link:active {
+    text-decoration: none; }
+
+.social {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.social__item {
+  margin-right: 25px;
+  margin-bottom: 25px;
+  transition: all 0.3s; }
+  .social__item:hover, .social__item:focus {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+  .social__item:active {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+
+.social__link {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  font-size: 25px; }
+  .social__link:hover, .social__link:focus {
+    color: var(--brand-color); }
+
+.copyright {
+  font-style: 1.2rem;
+  font-weight: normal;
+  line-height: 2em;
+  color: #898989; }
 
 /*# sourceMappingURL=styles.css.map */
